@@ -1,74 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>zini's site</title>
-<style>
-  body {
-    background-color: black;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    text-transform: lowercase; 
-  }
-  .button {
-    display: inline-block;
-    margin: 20px;
-    padding: 10px 20px;
-    background: gray;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    transition: background-color 0.3s;
-  }
-  .button:hover {
-    background: #333;
-  }
-  #handle {
-    font-size: 2em;
-    margin-top: 20px;
-  }
-  #clock-label {
-    font-size: 1.5em;
-    margin-top: 20px;
-  }
-  #clock {
-    font-size: 2em;
-    margin-top: 10px;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Death Pool</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div id="handle">zini's site</div>
-
-<a href="about_me.html" class="button">about me</a>
-<a href="portfolio.html" class="button">portfolio</a>
-<a href="blog.html" class="button">blog</a>
-<a href="contact.html" class="button">contact</a>
-
-<div id="clock-label">est time</div>
-<div id="clock"></div>
-
-<script>
-  function updateClock() {
-    var now = new Date(); 
-    var hours = now.getUTCHours() - 5; 
-    if (hours < 0) { 
-      hours += 24; 
-    }
-    var minutes = now.getUTCMinutes();
-    var seconds = now.getUTCSeconds();
-    hours = ("0" + hours).slice(-2);
-    minutes = ("0" + minutes).slice(-2);
-    seconds = ("0" + seconds).slice(-2);
-    document.getElementById('clock').textContent = hours + ":" + minutes + ":" + seconds;
-  }
-  setInterval(updateClock, 1000); 
-</script>
-
+    <header>
+        <h1>Celebrity Death Pool</h1>
+    </header>
+    <main>
+        <form id="predictionForm">
+            <input type="text" id="userName" placeholder="Your Username" required>
+            <input type="text" id="celebrityName" placeholder="Celebrity Name" required>
+            <button type="submit">Submit Prediction</button>
+        </form>
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboardList"></ul>
+        </section>
+        <section id="deceased-celebrities">
+            <h2>Deceased Celebrities</h2>
+            <ul id="deceasedList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>just a bit'a banta don't take it serious now</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

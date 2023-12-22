@@ -1,0 +1,26 @@
+{
+  "predictions": [
+    {
+      "username": "User1",
+      "celebrity": "Celebrity1"
+    },
+    {
+      "username": "User2",
+      "celebrity": "Celebrity1"
+    },
+    {
+      "username": "User1",
+      "celebrity": "Celebrity2"
+    }
+  ],
+  "deceased": [
+    {
+      "name": "Celebrity1",
+      "age": 85
+    },
+    {
+      "name": "Celebrity2",
+      "age": 76
+    }
+  ]
+}
