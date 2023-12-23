@@ -11,6 +11,10 @@
     {
       "username": "User1",
       "celebrity": "Celebrity2"
+    },
+    {
+      "username": "User3",
+      "celebrity": "Celebrity2"
     }
   ],
   "deceased": [
@@ -21,6 +25,16 @@
     {
       "name": "Celebrity2",
       "age": 76
+    }
+  ],
+  "teams": [
+    {
+      "name": "Team A",
+      "members": ["User1", "User2"]
+    },
+    {
+      "name": "Team B",
+      "members": ["User3", "User4"]
     }
   ]
 }

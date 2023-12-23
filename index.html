@@ -3,31 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celebrity Death Pool</title>
+    <title>ZMCDP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Celebrity Death Pool</h1>
+        <h1>ZM's Celebrity Death Pool</h1>
+        <div class="button-row">
+            <a href="submit-prediction.html" class="button">Submit Prediction</a>
+            <a href="register-team.html" class="button">Register Team</a>
+        </div>
     </header>
+
     <main>
-        <form id="predictionForm">
-            <input type="text" id="userName" placeholder="Your Username" required>
-            <input type="text" id="celebrityName" placeholder="Celebrity Name" required>
-            <button type="submit">Submit Prediction</button>
-        </form>
-        <section id="leaderboard">
-            <h2>Leaderboard</h2>
-            <ul id="leaderboardList"></ul>
-        </section>
-        <section id="deceased-celebrities">
-            <h2>Deceased Celebrities</h2>
-            <ul id="deceasedList"></ul>
-        </section>
+        <div class="container">
+
+            <div class="team-column">
+                <section id="team-leaderboard">
+                    <h2>teams</h2>
+                    <ul id="teamLeaderboardList"></ul>
+                </section>
+            </div>
+
+            <div class="user-column">
+                <section id="leaderboard">
+                    <h2>users</h2>
+                    <ul id="leaderboardList"></ul>
+                </section>
+
+                <section id="deceased-celebrities">
+                    <h2>dead bastards</h2>
+                    <ul id="deceasedList"></ul>
+                </section>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>just a bit'a banta don't take it serious now</p>
-    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
