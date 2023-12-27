@@ -1,17 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     const leaderboardList = document.getElementById('leaderboardList');
     const deceasedList = document.getElementById('deceasedList');
-    const teamLeaderboardList = document.getElementById('teamLeaderboardList'); // Added for team leaderboard
+    const teamLeaderboardList = document.getElementById('teamLeaderboardList');
     let data = {
         predictions: [],
         deceased: [],
-        teams: [] // Ensure this matches your JSON structure
+        teams: []
     };
-
-    // Fetch and display data
     fetchData();
 });
-
 function fetchData() {
     fetch('data.json')
         .then(response => response.json())
@@ -23,7 +20,6 @@ function fetchData() {
         })
         .catch(error => console.error('Error fetching data:', error));
 }
-
 function updateIndividualLeaderboard() {
     let leaderboard = {};
     data.predictions.forEach(prediction => {
@@ -39,11 +35,9 @@ function updateIndividualLeaderboard() {
     });
     displayLeaderboard(leaderboard);
 }
-
 function calculatePoints(age) {
     return 100 - age;
 }
-
 function displayLeaderboard(leaderboard) {
     const leaderboardList = document.getElementById('leaderboardList');
     leaderboardList.innerHTML = '';
@@ -53,12 +47,10 @@ function displayLeaderboard(leaderboard) {
         leaderboardList.appendChild(listItem);
     });
 }
-
 function updateTeamLeaderboard() {
     let teamScores = calculateTeamScores();
     displayTeamLeaderboard(teamScores);
 }
-
 function calculateTeamScores() {
     let scores = {};
     data.teams.forEach(team => {
@@ -69,7 +61,6 @@ function calculateTeamScores() {
     });
     return scores;
 }
-
 function calculateUserScore(username) {
     let score = 0;
     data.predictions.forEach(prediction => {
@@ -82,7 +73,6 @@ function calculateUserScore(username) {
     });
     return score;
 }
-
 function displayTeamLeaderboard(teamScores) {
     const teamLeaderboardList = document.getElementById('teamLeaderboardList');
     teamLeaderboardList.innerHTML = '';
@@ -92,7 +82,6 @@ function displayTeamLeaderboard(teamScores) {
         teamLeaderboardList.appendChild(listItem);
     });
 }
-
 function displayDeceasedCelebrities() {
     const deceasedList = document.getElementById('deceasedList');
     deceasedList.innerHTML = '';
