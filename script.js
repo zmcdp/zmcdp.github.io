@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     fetchData();
 });
+
 function fetchData() {
     fetch('data.json')
         .then(response => response.json())
@@ -20,12 +21,13 @@ function fetchData() {
         })
         .catch(error => console.error('Error fetching data:', error));
 }
+
 function updateIndividualLeaderboard() {
     let leaderboard = {};
     data.predictions.forEach(prediction => {
         const deceased = data.deceased.find(celeb => celeb.name === prediction.celebrity);
         if (deceased) {
-            const points = calculatePoints(deceased.age);
+            const points = calculatePoints(deceased.age, deceased.bonus || 0);
             if (leaderboard[prediction.username]) {
                 leaderboard[prediction.username] += points;
             } else {
@@ -35,9 +37,11 @@ function updateIndividualLeaderboard() {
     });
     displayLeaderboard(leaderboard);
 }
-function calculatePoints(age) {
-    return 100 - age;
+
+function calculatePoints(age, bonus = 0) {
+    return (100 - age) + bonus;
 }
+
 function displayLeaderboard(leaderboard) {
     const leaderboardList = document.getElementById('leaderboardList');
     leaderboardList.innerHTML = '';
@@ -47,10 +51,12 @@ function displayLeaderboard(leaderboard) {
         leaderboardList.appendChild(listItem);
     });
 }
+
 function updateTeamLeaderboard() {
     let teamScores = calculateTeamScores();
     displayTeamLeaderboard(teamScores);
 }
+
 function calculateTeamScores() {
     let scores = {};
     data.teams.forEach(team => {
@@ -61,18 +67,20 @@ function calculateTeamScores() {
     });
     return scores;
 }
+
 function calculateUserScore(username) {
     let score = 0;
     data.predictions.forEach(prediction => {
         if (prediction.username === username) {
             const deceased = data.deceased.find(celeb => celeb.name === prediction.celebrity);
             if (deceased) {
-                score += calculatePoints(deceased.age);
+                score += calculatePoints(deceased.age, deceased.bonus || 0);
             }
         }
     });
     return score;
 }
+
 function displayTeamLeaderboard(teamScores) {
     const teamLeaderboardList = document.getElementById('teamLeaderboardList');
     teamLeaderboardList.innerHTML = '';
@@ -82,6 +90,7 @@ function displayTeamLeaderboard(teamScores) {
         teamLeaderboardList.appendChild(listItem);
     });
 }
+
 function displayDeceasedCelebrities() {
     const deceasedList = document.getElementById('deceasedList');
     deceasedList.innerHTML = '';
