@@ -30,7 +30,7 @@ header .button {
     text-align: center;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
