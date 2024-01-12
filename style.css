@@ -2,15 +2,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #121212;
+    color: #f4f4f4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
     text-align: center;
     padding: 1rem 0;
 }
@@ -18,7 +19,7 @@ header {
 header .button-row {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 3px;
     padding: 0px 0;
 }
 
@@ -36,7 +37,7 @@ header .button {
 }
 
 header .button:hover {
-    background-color: #45a049;
+    background-color: #367c39;
     color: #f1f1f1;
 }
 
@@ -47,8 +48,8 @@ main {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #333;
-    color: white;
+    background-color: #1c1c1c;
+    color: #f4f4f4;
 }
 
 .container {
@@ -66,15 +67,14 @@ footer {
     align-items: stretch;
 }
 
-
 .button:last-child {
     margin-right: 0;
 }
 
 #leaderboard, #deceased-celebrities, #team-leaderboard {
-    background-color: #fff;
+    background-color: #1f1f1f;
+    color: #f4f4f4;
     padding: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 0;
 }
 
@@ -86,60 +86,31 @@ ul {
 
 ul li {
     padding: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #444;
 }
 
-#contact-info {
-    background-color: #f8f8f8;
+#contact-info, #teamRegistrationSection, #bonus-section {
+    background-color: #1f1f1f;
+    color: #f4f4f4;
     padding: 15px;
     margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-#contact-info h2 {
-    color: #333;
+#contact-info h2, #teamRegistrationSection h2, #bonus-section h2 {
+    color: #e0e0e0;
 }
 
-#contact-info ul {
+#contact-info ul, #teamRegistrationSection ul, #bonus-section ul {
     list-style-type: disc;
     padding-left: 20px;
 }
 
-#contact-info a {
-    color: #007bff;
+#contact-info a, #teamRegistrationSection a, #bonus-section a {
+    color: #81c784;
     text-decoration: none;
 }
 
-#contact-info a:hover {
-    text-decoration: underline;
-}
-
-#teamRegistrationSection {
-    background-color: #f8f8f8;
-    padding: 15px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#teamRegistrationSection h2 {
-    color: #333;
-}
-
-#teamRegistrationSection ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#teamRegistrationSection li {
-    margin-bottom: 10px;
-}
-
-#teamRegistrationSection a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-#teamRegistrationSection a:hover {
+#contact-info a:hover, #teamRegistrationSection a:hover, #bonus-section a:hover {
     text-decoration: underline;
 }
 
@@ -147,15 +118,16 @@ ul li {
     display: flex;
     flex-direction: column;
     margin-top: 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .team-column {
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     grid-area: teams;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: #ffffff
+    background-color: #1f1f1f;
+    color: #f4f4f4;
 }
 
 .user-column {
@@ -166,79 +138,4 @@ ul li {
     grid-area: content;
     display: flex;
     gap: 10px;
-}
-
-.button:hover {
-    background-color: #45a049;
-    color: #f1f1f1;
-}
-
-#contact-info {
-    background-color: #f8f8f8;
-    padding: 15px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#contact-info h2 {
-    color: #333;
-}
-
-#contact-info ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#contact-info a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-#contact-info a:hover {
-    text-decoration: underline;
-}
-
-#teamRegistrationSection {
-    background-color: #f8f8f8;
-    padding: 15px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#teamRegistrationSection h2 {
-    color: #333;
-}
-
-#teamRegistrationSection ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#teamRegistrationSection li {
-    margin-bottom: 10px;
-}
-
-#teamRegistrationSection a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-#teamRegistrationSection a:hover {
-    text-decoration: underline;
-}
-#bonus-section {
-    background-color: #fff;
-    padding: 15px;
-    margin: 10px;
-}
-
-#bonus-section h2 {
-    color: #333;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-#bonus-section p {
-    color: #333;
-    font-size: 1em;
 }
