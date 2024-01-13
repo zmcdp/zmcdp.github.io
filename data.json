@@ -1,20 +1,20 @@
 {
   "predictions": [
     {
-      "username": "User1",
+      "username": "this",
       "celebrity": "Celebrity1"
     },
     {
-      "username": "User2",
+      "username": "site",
       "celebrity": "Celebrity1"
     },
     {
-      "username": "User1",
-      "celebrity": "Celebrity2"
+      "username": "is",
+      "celebrity": "Celebrity1"
     },
     {
-      "username": "User3",
-      "celebrity": "Celebrity2"
+      "username": "not finished",
+      "celebrity": "Celebrity1"
     }
   ],
   "deceased": [
@@ -29,12 +29,8 @@
   ],
   "teams": [
     {
-      "name": "Team A",
-      "members": ["User1", "User2"]
-    },
-    {
-      "name": "Team B",
-      "members": ["User3", "User4"]
+      "name": "under construction",
+      "members": ["", ""]
     }
   ]
 }
