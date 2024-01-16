@@ -119,6 +119,46 @@
 	{
       "username": "admin",
       "celebrity": "The Undertaker"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Samuel L. Jackson"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Laurence Fishburne"
+    },
+	{
+      "username": "admin",
+      "celebrity": "George Lucas"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Spike Lee"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Jackie Chan"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Mel Gibson"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Warren Buffet"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Russel Crowe"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Russell Brand"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Johnny Depp"
     }
   ],
   "deceased": [
