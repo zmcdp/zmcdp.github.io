@@ -84,11 +84,19 @@ function calculateUserScore(username) {
 function displayTeamLeaderboard(teamScores) {
     const teamLeaderboardList = document.getElementById('teamLeaderboardList');
     teamLeaderboardList.innerHTML = '';
+
     Object.entries(teamScores).sort((a, b) => b[1] - a[1]).forEach(([teamName, score]) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${teamName} - ${score} points`;
+        const anchor = document.createElement('a');
+        anchor.textContent = `${teamName} - ${score} points`;
+        anchor.href = `teams/${formatTeamNameForURL(teamName)}.html`;
+        listItem.appendChild(anchor);
         teamLeaderboardList.appendChild(listItem);
     });
+}
+
+function formatTeamNameForURL(teamName) {
+    return teamName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 function displayDeceasedCelebrities() {
