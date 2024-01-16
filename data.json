@@ -1,36 +1,137 @@
 {
   "predictions": [
     {
-      "username": "this",
-      "celebrity": "Celebrity1"
+      "username": "tommy",
+      "celebrity": "Michael Turner"
     },
     {
-      "username": "site",
-      "celebrity": "Celebrity1"
+      "username": "tommy",
+      "celebrity": "Rob Burrow"
     },
     {
-      "username": "is",
-      "celebrity": "Celebrity1"
+      "username": "tommy",
+      "celebrity": "Linda Nolan"
     },
     {
-      "username": "not finished",
-      "celebrity": "Celebrity1"
+      "username": "tommy",
+      "celebrity": "Shannen Doherty"
+    },
+    {
+      "username": "tommy",
+      "celebrity": "James Whale"
+    },
+    {
+      "username": "tommy",
+      "celebrity": "Steve McMichael"
+    },
+    {
+      "username": "tommy",
+      "celebrity": "Jonnie Irwin"
+    },
+    {
+      "username": "tommy",
+      "celebrity": "Erik Jensen"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Esther Rantzen"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Michael Tilson Thomas"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Larry Pressler"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Frank Field"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Mallorca Lee"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Khaleda Zia"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Frank Caprio"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Ronnie Atkins"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Bill Steel"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Bruce Willis"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Barry Du Bois"
+    },
+	{
+      "username": "tommy",
+      "celebrity": "Snoop Dogg (spite)"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Noam Chomsky"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Adrian Tinniswood"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Julian Assange"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Harrison Ford"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Mienoumi Tsuyoshi"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Hokutoumi Nobuyoshi"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Danny Devito"
+    },
+	{
+      "username": "admin",
+      "celebrity": "Bill Maher (SPITE SPITE SPITE)"
+    },	
+	{
+      "username": "admin",
+      "celebrity": "Hulk Hogan"
+    },
+	{
+      "username": "admin",
+      "celebrity": "The Undertaker"
     }
   ],
   "deceased": [
-    {
-      "name": "Celebrity1",
-      "age": 85
-    },
-    {
-      "name": "Celebrity2",
-      "age": 76
-    }
+
   ],
   "teams": [
     {
-      "name": "under construction",
-      "members": ["", ""]
-    }
+      "name": "DR. T's DEATHSQUAD",
+      "members": ["tommy", ""]
+    },
+    {
+      "name": "Marvin's Marvelous Mechanical Mortuary",
+      "members": ["admin", ""]
+    },
   ]
 }
