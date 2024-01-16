@@ -110,7 +110,7 @@
     },
 	{
       "username": "admin",
-      "celebrity": "Bill Maher (SPITE SPITE SPITE)"
+      "celebrity": "Bill Maher (spite spite spite)"
     },	
 	{
       "username": "admin",
@@ -132,6 +132,6 @@
     {
       "name": "Marvin's Marvelous Mechanical Mortuary",
       "members": ["admin", ""]
-    },
+    }
   ]
 }
