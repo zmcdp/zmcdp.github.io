@@ -475,6 +475,86 @@
 	{
       "username": "Osman",
       "celebrity": "Dave Keon"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Pope John Francis"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Julie Walters"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Josef Fritzel"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Joe Bugner"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Buzz aldrin"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Raul Castro"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Celine Dion"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Jimmy Carter"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Bruce Willis"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Jimmy Swaggart"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "George Soros"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Harvey Weinstein"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Bob Newhart"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Jerry Sandusky"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Rupert Murdoch"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Doc Severinsen"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Maxine Waters"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Bobby Ross"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Dan Rather"
+    },
+	{
+      "username": "Dyl",
+      "celebrity": "Charles Koch"
     }
   ],
   "deceased": [
@@ -500,6 +580,10 @@
 	{
       "name": "Circle of Life",
       "members": ["Osman", ""]
+    },
+	{
+      "name": "Dyl's Mortuary",
+      "members": ["Dyl", ""]
     }
   ]
 }
