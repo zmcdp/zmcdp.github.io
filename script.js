@@ -102,7 +102,7 @@ function formatTeamNameForURL(teamName) {
 function displayDeceasedCelebrities() {
     const deceasedList = document.getElementById('deceasedList');
     deceasedList.innerHTML = '';
-    data.deceased.forEach(celeb => {
+    data.deceased.slice(0, 10).forEach(celeb => { // Show only first 10
         const listItem = document.createElement('li');
         listItem.textContent = `${celeb.name} (${celeb.age})`;
         deceasedList.appendChild(listItem);

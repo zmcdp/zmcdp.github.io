@@ -41,6 +41,31 @@ header .button:hover {
     color: #f1f1f1;
 }
 
+main .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding: 0px 0;
+}
+
+main .button {
+    padding: 3px 6px;
+    font-size: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main .button:hover {
+    background-color: #367c39;
+    color: #f1f1f1;
+}
+
 main {
     flex: 1;
 }
