@@ -3,10 +3,8 @@ from bs4 import BeautifulSoup
 import re
 import json
 
-# Define the Wikipedia URL
 URL = "https://en.wikipedia.org/wiki/Deaths_in_2024"
 
-# Function to scrape deaths by date from Wikipedia and return a list of dictionaries with names and ages
 def scrape_deaths_by_date(url):
     deceased_list = []
     current_date = None
@@ -24,28 +22,20 @@ def scrape_deaths_by_date(url):
                     name_age_match = re.match(r"^(.*?)(,|\u2013) (\d+)", text)
                     if name_age_match:
                         name = name_age_match.group(1).strip()
-                        # Remove any text within square brackets and trailing spaces
                         name = re.sub(r'\s*\[.*?\]\s*', '', name).strip()
                         age = name_age_match.group(3).strip()
                         deceased_list.append({"name": name, "age": int(age)})
 
     return deceased_list
 
-# Function to update JSON data
 def update_json_deceased(file_path, deceased_list):
     with open(file_path, 'r+', encoding='utf-8') as file:
         data = json.load(file)
         data['deceased'].extend(deceased_list)
-        file.seek(0)  # Reset file position to the beginning
+        file.seek(0)
         json.dump(data, file, ensure_ascii=False, indent=4)
 
-# Main execution flow
 if __name__ == "__main__":
-    # Path to the JSON file
     json_file_path = "data.json"
-
-    # Scrape Wikipedia data
     scraped_deceased = scrape_deaths_by_date(URL)
-
-    # Update JSON file
     update_json_deceased(json_file_path, scraped_deceased)
