@@ -559,24 +559,232 @@
     ],
     "deceased": [
         {
+            "name": "Hari Shankar Bhabhra",
+            "age": 95
+        },
+        {
+            "name": "Bhavatharini",
+            "age": 47
+        },
+        {
+            "name": "Bat-Sheva Dagan",
+            "age": 98
+        },
+        {
+            "name": "Roger Donlon",
+            "age": 89
+        },
+        {
+            "name": "Milan Stanislav Ďurica",
+            "age": 98
+        },
+        {
+            "name": "Michael Healy Lacayo",
+            "age": 61
+        },
+        {
+            "name": "Iraj Jamshidi",
+            "age": 74
+        },
+        {
+            "name": "Sanath Nishantha",
+            "age": 48
+        },
+        {
+            "name": "Carl Andre",
+            "age": 88
+        },
+        {
+            "name": "Ivor Browne",
+            "age": 94
+        },
+        {
+            "name": "Frank Buck",
+            "age": 80
+        },
+        {
+            "name": "Harry Connick Sr.",
+            "age": 97
+        },
+        {
+            "name": "Herbert Coward",
+            "age": 85
+        },
+        {
+            "name": "Dai Yi",
+            "age": 97
+        },
+        {
+            "name": "Howard Golden",
+            "age": 98
+        },
+        {
+            "name": "Azer Gurbanov",
+            "age": 68
+        },
+        {
+            "name": "Jesse Jane",
+            "age": 43
+        },
+        {
+            "name": "Noble Jose",
+            "age": 44
+        },
+        {
+            "name": "Kelly Malveaux",
+            "age": 47
+        },
+        {
+            "name": "Selwyn Muru",
+            "age": 86
+        },
+        {
+            "name": "Ángel María de Pablos",
+            "age": 81
+        },
+        {
+            "name": "Māris Putniņš",
+            "age": 73
+        },
+        {
+            "name": "Serhiy Rozhok",
+            "age": 38
+        },
+        {
+            "name": "Mihai Scoarță",
+            "age": 74
+        },
+        {
+            "name": "Alberto Tanasini",
+            "age": 78
+        },
+        {
+            "name": "Neuza Teixeira",
+            "age": 44
+        },
+        {
+            "name": "Väino Uibo",
+            "age": 81
+        },
+        {
+            "name": "Jan Bogaert",
+            "age": 66
+        },
+        {
+            "name": "Zoubeir Boughnia",
+            "age": 68
+        },
+        {
+            "name": "Bruce Covernton",
+            "age": 57
+        },
+        {
+            "name": "Frank Farian",
+            "age": 82
+        },
+        {
+            "name": "Charles Fried",
+            "age": 88
+        },
+        {
+            "name": "Mohammad Ghobadloo",
+            "age": 23
+        },
+        {
+            "name": "Ice Train",
+            "age": 56
+        },
+        {
+            "name": "David Kahn",
+            "age": 93
+        },
+        {
+            "name": "Melanie",
+            "age": 76
+        },
+        {
+            "name": "Giuliano Musiello",
+            "age": 70
+        },
+        {
+            "name": "Rene Oliveira",
+            "age": 68
+        },
+        {
+            "name": "Ali Orumian",
+            "age": 92
+        },
+        {
+            "name": "Charles Osgood",
+            "age": 91
+        },
+        {
+            "name": "Jean Petit",
+            "age": 74
+        },
+        {
+            "name": "Jack Riddell",
+            "age": 92
+        },
+        {
+            "name": "Margaret Riley",
+            "age": 58
+        },
+        {
+            "name": "Anders Sandberg",
+            "age": 55
+        },
+        {
             "name": "Turgʻun Azizov",
             "age": 89
+        },
+        {
+            "name": "Tommy Baldwin",
+            "age": 78
+        },
+        {
+            "name": "János Beszteri-Balogh",
+            "age": 85
         },
         {
             "name": "Derrick Bragg",
             "age": 59
         },
         {
+            "name": "Elke Erb",
+            "age": 85
+        },
+        {
             "name": "Maricet Espinosa",
             "age": 34
+        },
+        {
+            "name": "Takashi Ezure",
+            "age": 82
+        },
+        {
+            "name": "Eleanor Fazan",
+            "age": 93
         },
         {
             "name": "Jagdish Gandhi",
             "age": 87
         },
         {
+            "name": "Tony Gardiner",
+            "age": 76
+        },
+        {
+            "name": "Gary Graham",
+            "age": 73
+        },
+        {
+            "name": "Gabriela Hanuláková",
+            "age": 66
+        },
+        {
             "name": "Yahya Harahap",
-            "age": 79
+            "age": 89
         },
         {
             "name": "Jack Jennings",
@@ -587,12 +795,28 @@
             "age": 62
         },
         {
+            "name": "Neil Kulkarni",
+            "age": 51
+        },
+        {
             "name": "Lior Lubin",
             "age": 46
         },
         {
             "name": "Martí",
             "age": 68
+        },
+        {
+            "name": "John McMahon",
+            "age": 91
+        },
+        {
+            "name": "Gary V. Nelson",
+            "age": 70
+        },
+        {
+            "name": "Arno Allan Penzias",
+            "age": 90
         },
         {
             "name": "Anatoli Polivoda",
@@ -603,19 +827,47 @@
             "age": 79
         },
         {
+            "name": "Per Sønstabø",
+            "age": 82
+        },
+        {
             "name": "Andrzej Szajna",
             "age": 74
+        },
+        {
+            "name": "Sergei Yefremenko",
+            "age": 51
+        },
+        {
+            "name": "Sir Christopher Benson",
+            "age": 90
         },
         {
             "name": "Vlad Ciobanu",
             "age": 75
         },
         {
-            "name": "David Gail",
-            "age": 58
+            "name": "Ergin Duru",
+            "age": 61
+        },
+        {
+            "name": "Jon Franklin",
+            "age": 82
+        },
+        {
+            "name": "Perry Friedman",
+            "age": 55
+        },
+        {
+            "name": "Mokhtar Hasni",
+            "age": 71
         },
         {
             "name": "Thomas Hussey",
+            "age": 87
+        },
+        {
+            "name": "Dick O'Bree",
             "age": 87
         },
         {
@@ -631,8 +883,24 @@
             "age": 83
         },
         {
+            "name": "Frances Manners, Duchess of Rutland",
+            "age": 86
+        },
+        {
+            "name": "Steve Staggs",
+            "age": 72
+        },
+        {
+            "name": "Gus Wingfield",
+            "age": 97
+        },
+        {
             "name": "Inguna Bauere",
             "age": 63
+        },
+        {
+            "name": "Henk van den Breemen",
+            "age": 82
         },
         {
             "name": "Choe Thae-bok",
@@ -663,6 +931,10 @@
             "age": 101
         },
         {
+            "name": "Nicholas Higham",
+            "age": 62
+        },
+        {
             "name": "Norman Jewison",
             "age": 97
         },
@@ -679,12 +951,24 @@
             "age": 100
         },
         {
+            "name": "William Charles Lee",
+            "age": 85
+        },
+        {
+            "name": "Eugeniusz Lerch",
+            "age": 84
+        },
+        {
             "name": "Jayanarayan Mohanty",
             "age": 72
         },
         {
             "name": "Anezi Okoro",
             "age": 94
+        },
+        {
+            "name": "Pietro Omodeo",
+            "age": 104
         },
         {
             "name": "Doug Padgett",
@@ -739,12 +1023,32 @@
             "age": 63
         },
         {
+            "name": "Erwin James",
+            "age": 66
+        },
+        {
             "name": "José Antonio Jiménez Jiménez",
             "age": 71
         },
         {
+            "name": "ABilly S. Jones-Hennin",
+            "age": 81
+        },
+        {
+            "name": "Toru Kawashima",
+            "age": 53
+        },
+        {
+            "name": "Lance Larson",
+            "age": 83
+        },
+        {
             "name": "Lee Doo-yong",
             "age": 81
+        },
+        {
+            "name": "Martin Middlebrook",
+            "age": 91
         },
         {
             "name": "Ewa Podleś",
@@ -759,6 +1063,14 @@
             "age": 81
         },
         {
+            "name": "Yves St-Denis",
+            "age": 60
+        },
+        {
+            "name": "Red Swanson",
+            "age": 87
+        },
+        {
             "name": "Mary Weiss",
             "age": 75
         },
@@ -771,12 +1083,20 @@
             "age": 63
         },
         {
+            "name": "Donald Adamson",
+            "age": 84
+        },
+        {
             "name": "Ted Allsopp",
             "age": 97
         },
         {
             "name": "Katelele Ching'oma",
             "age": 32
+        },
+        {
+            "name": "André Danthine",
+            "age": 91
         },
         {
             "name": "Seán Dineen",
@@ -793,6 +1113,10 @@
         {
             "name": "Orietta Grossi",
             "age": 64
+        },
+        {
+            "name": "Josef Haas",
+            "age": 86
         },
         {
             "name": "Ray Henderson",
@@ -867,6 +1191,10 @@
             "age": 86
         },
         {
+            "name": "Jan Zaanen",
+            "age": 66
+        },
+        {
             "name": "Shawnacy Barber",
             "age": 29
         },
@@ -897,6 +1225,10 @@
         {
             "name": "Roger T. Forster",
             "age": 90
+        },
+        {
+            "name": "Jean Freeman",
+            "age": 89
         },
         {
             "name": "Robert Gaylor",
@@ -1007,12 +1339,12 @@
             "age": 84
         },
         {
-            "name": "Dzintra Grundmane",
-            "age": 79
+            "name": "David Gail",
+            "age": 58
         },
         {
-            "name": "Jerry Hilgenberg",
-            "age": 92
+            "name": "Dzintra Grundmane",
+            "age": 79
         },
         {
             "name": "Esper Itō",
@@ -1227,6 +1559,10 @@
             "age": 37
         },
         {
+            "name": "Jerry Hilgenberg",
+            "age": 92
+        },
+        {
             "name": "Alan Jones",
             "age": 83
         },
@@ -1249,6 +1585,10 @@
         {
             "name": "Karl-Heinz Ohlig",
             "age": 85
+        },
+        {
+            "name": "Magda Paulányi",
+            "age": 78
         },
         {
             "name": "Tom Purdom",
@@ -1277,6 +1617,10 @@
         {
             "name": "Norm Snead",
             "age": 84
+        },
+        {
+            "name": "Gagik Tadevosyan",
+            "age": 73
         },
         {
             "name": "Makoto Taniguchi",
@@ -1367,10 +1711,6 @@
             "age": 90
         },
         {
-            "name": "Asfaw Meshesha",
-            "age": 56
-        },
-        {
             "name": "Juli Mira",
             "age": 74
         },
@@ -1433,6 +1773,10 @@
         {
             "name": "Shaukat Zaidi",
             "age": 72
+        },
+        {
+            "name": "Amir Bhatia, Baron Bhatia",
+            "age": 91
         },
         {
             "name": "Bev Dovey",
@@ -1587,12 +1931,20 @@
             "age": 90
         },
         {
+            "name": "Guy Janvier",
+            "age": 75
+        },
+        {
             "name": "Kim Kyong-ok",
             "age": 93
         },
         {
             "name": "Jean-Luc Laurent",
             "age": 66
+        },
+        {
+            "name": "Michael I. Levy",
+            "age": 84
         },
         {
             "name": "Lynne Marta",
@@ -1701,6 +2053,10 @@
         {
             "name": "Fernando Gualtieri",
             "age": 104
+        },
+        {
+            "name": "Paul Günter",
+            "age": 80
         },
         {
             "name": "Shamim Jairajpuri",
@@ -1847,6 +2203,10 @@
             "age": 98
         },
         {
+            "name": "Elke Solomon",
+            "age": 80
+        },
+        {
             "name": "Carl-Erik Asplund",
             "age": 100
         },
@@ -1921,6 +2281,14 @@
         {
             "name": "Phill Niblock",
             "age": 90
+        },
+        {
+            "name": "Catrìona NicGumaraid",
+            "age": 75
+        },
+        {
+            "name": "Deanna Petherbridge",
+            "age": 84
         },
         {
             "name": "Ventura Pons",
@@ -2355,6 +2723,10 @@
             "age": 96
         },
         {
+            "name": "Asfaw Meshesha",
+            "age": 56
+        },
+        {
             "name": "Ruy Mingas",
             "age": 84
         },
@@ -2429,6 +2801,10 @@
         {
             "name": "Tracy Tormé",
             "age": 64
+        },
+        {
+            "name": "John White",
+            "age": 87
         },
         {
             "name": "Tomonobu Yokoyama",
@@ -2519,6 +2895,10 @@
             "age": 92
         },
         {
+            "name": "Karsten Knolle",
+            "age": 84
+        },
+        {
             "name": "René Metge",
             "age": 82
         },
@@ -2545,6 +2925,10 @@
         {
             "name": "Rosie Reyes",
             "age": 84
+        },
+        {
+            "name": "Tawl Ross",
+            "age": 75
         },
         {
             "name": "Paul Theriault",
@@ -2645,6 +3029,10 @@
         {
             "name": "E. Leo Milonas",
             "age": 87
+        },
+        {
+            "name": "Gottfried Münzenberg",
+            "age": 83
         },
         {
             "name": "Rizal Ramli",
