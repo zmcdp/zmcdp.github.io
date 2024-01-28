@@ -559,6 +559,106 @@
     ],
     "deceased": [
         {
+            "name": "Nitya Anand",
+            "age": 99
+        },
+        {
+            "name": "Harmohan Dhawan",
+            "age": 83
+        },
+        {
+            "name": "Peter Glynn",
+            "age": 71
+        },
+        {
+            "name": "Stuart Gray",
+            "age": 50
+        },
+        {
+            "name": "Malcolm Gregson",
+            "age": 80
+        },
+        {
+            "name": "Enrique Liporace",
+            "age": 82
+        },
+        {
+            "name": "Sreela Majumdar",
+            "age": 65
+        },
+        {
+            "name": "Rubén Marín",
+            "age": 89
+        },
+        {
+            "name": "Eugenio Nasarre",
+            "age": 77
+        },
+        {
+            "name": "Bruno Segre",
+            "age": 105
+        },
+        {
+            "name": "Josep Alegre i Vilas",
+            "age": 83
+        },
+        {
+            "name": "Jiří Bičák",
+            "age": 82
+        },
+        {
+            "name": "Keith Booth",
+            "age": 81
+        },
+        {
+            "name": "Emanuele Catarinicchia",
+            "age": 97
+        },
+        {
+            "name": "Graham Drury",
+            "age": 71
+        },
+        {
+            "name": "El Amry Farouk",
+            "age": 53
+        },
+        {
+            "name": "Sukhbir Singh Gill",
+            "age": 48
+        },
+        {
+            "name": "Michel Hausser",
+            "age": 96
+        },
+        {
+            "name": "Mihaela Gabi Ianoși",
+            "age": 56
+        },
+        {
+            "name": "Włodzimierz Jastrzębski",
+            "age": 84
+        },
+        {
+            "name": "Iosif Lereter",
+            "age": 90
+        },
+        {
+            "name": "Walter Love",
+            "age": 88
+        },
+        {
+            "name": "Ricardo Pascale",
+            "age": 81
+        },
+        {
+            "name": "Goran Petrović",
+            "age": 62
+        },
+        {
+            "name": "Bené Arnold",
+            "age": 88
+        },
+        {
             "name": "Hari Shankar Bhabhra",
             "age": 95
         },
@@ -567,8 +667,20 @@
             "age": 47
         },
         {
+            "name": "Conrad Chase",
+            "age": 58
+        },
+        {
+            "name": "Ger Connolly",
+            "age": 86
+        },
+        {
             "name": "Bat-Sheva Dagan",
             "age": 98
+        },
+        {
+            "name": "Deodoro",
+            "age": 74
         },
         {
             "name": "Roger Donlon",
@@ -579,16 +691,36 @@
             "age": 98
         },
         {
+            "name": "Rafiuddin Hashmi",
+            "age": 83
+        },
+        {
             "name": "Michael Healy Lacayo",
             "age": 61
+        },
+        {
+            "name": "Gus Hendrickson",
+            "age": 83
         },
         {
             "name": "Iraj Jamshidi",
             "age": 74
         },
         {
+            "name": "Masuimi Max",
+            "age": 45
+        },
+        {
+            "name": "Abasse Ndione",
+            "age": 77
+        },
+        {
             "name": "Sanath Nishantha",
             "age": 48
+        },
+        {
+            "name": "Kenneth Smith",
+            "age": 58
         },
         {
             "name": "Carl Andre",
@@ -621,6 +753,10 @@
         {
             "name": "Azer Gurbanov",
             "age": 68
+        },
+        {
+            "name": "Rod Holcomb",
+            "age": 80
         },
         {
             "name": "Jesse Jane",
@@ -735,6 +871,10 @@
             "age": 55
         },
         {
+            "name": "Romana Vaccaro",
+            "age": 67
+        },
+        {
             "name": "Turgʻun Azizov",
             "age": 89
         },
@@ -747,16 +887,16 @@
             "age": 85
         },
         {
+            "name": "Ted Bloecher",
+            "age": 94
+        },
+        {
             "name": "Derrick Bragg",
             "age": 59
         },
         {
             "name": "Elke Erb",
             "age": 85
-        },
-        {
-            "name": "Maricet Espinosa",
-            "age": 34
         },
         {
             "name": "Takashi Ezure",
@@ -779,12 +919,24 @@
             "age": 73
         },
         {
+            "name": "Eva Grant",
+            "age": 98
+        },
+        {
+            "name": "Han Song",
+            "age": 76
+        },
+        {
             "name": "Gabriela Hanuláková",
             "age": 66
         },
         {
             "name": "Yahya Harahap",
             "age": 89
+        },
+        {
+            "name": "Motohisa Ikeda",
+            "age": 83
         },
         {
             "name": "Jack Jennings",
@@ -799,6 +951,10 @@
             "age": 51
         },
         {
+            "name": "Don Lassetter",
+            "age": 90
+        },
+        {
             "name": "Lior Lubin",
             "age": 46
         },
@@ -807,12 +963,20 @@
             "age": 68
         },
         {
+            "name": "Bridget McEvilly",
+            "age": 77
+        },
+        {
             "name": "John McMahon",
             "age": 91
         },
         {
             "name": "Gary V. Nelson",
             "age": 70
+        },
+        {
+            "name": "Jackie O'Gorman",
+            "age": 80
         },
         {
             "name": "Arno Allan Penzias",
@@ -825,6 +989,10 @@
         {
             "name": "Gigi Riva",
             "age": 79
+        },
+        {
+            "name": "Margo Smith",
+            "age": 84
         },
         {
             "name": "Per Sønstabø",
@@ -849,6 +1017,10 @@
         {
             "name": "Ergin Duru",
             "age": 61
+        },
+        {
+            "name": "Maricet Espinosa",
+            "age": 34
         },
         {
             "name": "Jon Franklin",
@@ -885,6 +1057,10 @@
         {
             "name": "Frances Manners, Duchess of Rutland",
             "age": 86
+        },
+        {
+            "name": "José A. Rodríguez Cruz",
+            "age": 62
         },
         {
             "name": "Steve Staggs",
@@ -951,6 +1127,10 @@
             "age": 100
         },
         {
+            "name": "Bob Landsee",
+            "age": 59
+        },
+        {
             "name": "William Charles Lee",
             "age": 85
         },
@@ -961,6 +1141,10 @@
         {
             "name": "Jayanarayan Mohanty",
             "age": 72
+        },
+        {
+            "name": "Donal O'Grady",
+            "age": 96
         },
         {
             "name": "Anezi Okoro",
@@ -1103,6 +1287,10 @@
             "age": 79
         },
         {
+            "name": "Hartmut Elsenhans",
+            "age": 82
+        },
+        {
             "name": "Mohamed Ghozzi",
             "age": 74
         },
@@ -1195,8 +1383,12 @@
             "age": 66
         },
         {
-            "name": "Shawnacy Barber",
+            "name": "Shawn Barber",
             "age": 29
+        },
+        {
+            "name": "Aris Bouloukos",
+            "age": 91
         },
         {
             "name": "Brian Brett",
@@ -1247,6 +1439,10 @@
             "age": 72
         },
         {
+            "name": "Al Kolyn",
+            "age": 91
+        },
+        {
             "name": "Serge Laprade",
             "age": 83
         },
@@ -1269,6 +1465,10 @@
         {
             "name": "Bennie Muller",
             "age": 85
+        },
+        {
+            "name": "Harriet Mitchell Murphy",
+            "age": 96
         },
         {
             "name": "Carlos Rojas Gutiérrez",
@@ -1423,8 +1623,8 @@
             "age": 96
         },
         {
-            "name": "Denis Connaghan",
-            "age": 79
+            "name": "Don Arnold",
+            "age": 81
         },
         {
             "name": "Georgios Darivas",
@@ -1547,8 +1747,16 @@
             "age": 72
         },
         {
+            "name": "Dominick Cirillo",
+            "age": 94
+        },
+        {
             "name": "Jerry Coker",
             "age": 91
+        },
+        {
+            "name": "Denis Connaghan",
+            "age": 79
         },
         {
             "name": "Joan Coxsedge",
@@ -1561,6 +1769,10 @@
         {
             "name": "Jerry Hilgenberg",
             "age": 92
+        },
+        {
+            "name": "Tom Johnson",
+            "age": 55
         },
         {
             "name": "Alan Jones",
@@ -1699,6 +1911,10 @@
             "age": 85
         },
         {
+            "name": "Spiros Kaloudis",
+            "age": 88
+        },
+        {
             "name": "Moe L'Abbé",
             "age": 76
         },
@@ -1807,6 +2023,10 @@
             "age": 83
         },
         {
+            "name": "Anthony Holt",
+            "age": 83
+        },
+        {
             "name": "Hans Huber",
             "age": 90
         },
@@ -1909,6 +2129,10 @@
         {
             "name": "Robin Brownlee",
             "age": 65
+        },
+        {
+            "name": "Khalid Butt",
+            "age": 76
         },
         {
             "name": "John V. Byrne",
@@ -2255,6 +2479,10 @@
             "age": 78
         },
         {
+            "name": "Benton Johnson",
+            "age": 95
+        },
+        {
             "name": "Mark Kharitonov",
             "age": 86
         },
@@ -2281,10 +2509,6 @@
         {
             "name": "Phill Niblock",
             "age": 90
-        },
-        {
-            "name": "Catrìona NicGumaraid",
-            "age": 75
         },
         {
             "name": "Deanna Petherbridge",
@@ -2399,6 +2623,10 @@
             "age": 101
         },
         {
+            "name": "Kook Jong-nam",
+            "age": 86
+        },
+        {
             "name": "Maksym Kryvtsov",
             "age": 33
         },
@@ -2445,6 +2673,10 @@
         {
             "name": "Fernando Capalla",
             "age": 89
+        },
+        {
+            "name": "Chung-Chuan Cheng",
+            "age": 92
         },
         {
             "name": "Burke Dales",
@@ -2611,6 +2843,10 @@
             "age": 80
         },
         {
+            "name": "Catrìona NicGumaraid",
+            "age": 75
+        },
+        {
             "name": "Con O'Leary",
             "age": 77
         },
@@ -2691,10 +2927,6 @@
             "age": 87
         },
         {
-            "name": "John Cockin",
-            "age": 84
-        },
-        {
             "name": "Raymond Elena",
             "age": 92
         },
@@ -2721,6 +2953,10 @@
         {
             "name": "Bernhard Lewkovitch",
             "age": 96
+        },
+        {
+            "name": "Nancy Mackay",
+            "age": 101
         },
         {
             "name": "Asfaw Meshesha",
@@ -2963,6 +3199,10 @@
             "age": 71
         },
         {
+            "name": "Edward E. Crutchfield",
+            "age": 82
+        },
+        {
             "name": "Seán Donnelly",
             "age": 83
         },
@@ -3101,6 +3341,10 @@
         {
             "name": "Chang Chih-chia",
             "age": 43
+        },
+        {
+            "name": "John Cockin",
+            "age": 84
         },
         {
             "name": "Ries Coté",
