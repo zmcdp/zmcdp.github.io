@@ -559,12 +559,44 @@
     ],
     "deceased": [
         {
+            "name": "Aston \"Family Man\" Barrett",
+            "age": 77
+        },
+        {
+            "name": "Ángel Franco Martínez",
+            "age": 85
+        },
+        {
+            "name": "Abdullah Al-Saadawi",
+            "age": 76
+        },
+        {
+            "name": "Vittorio Emanuele, Prince of Naples",
+            "age": 86
+        },
+        {
+            "name": "Wee Cho Yaw",
+            "age": 95
+        },
+        {
             "name": "Alev Alatlı",
             "age": 79
         },
         {
+            "name": "Abdul Hamid Bakal",
+            "age": 84
+        },
+        {
             "name": "Mohammed Shamsul Hoque Bhuiyan",
             "age": 75
+        },
+        {
+            "name": "Steve Brown",
+            "age": 66
+        },
+        {
+            "name": "František Černý",
+            "age": 92
         },
         {
             "name": "Osvaldo Domínguez Dibb",
@@ -575,9 +607,17 @@
             "age": 81
         },
         {
+            "name": "Hu Hesheng",
+            "age": 95
+        },
+        {
             "name": "Jonnie Irwin",
             "age": 50,
 			"bonus": 75
+        },
+        {
+            "name": "Francisco Jara",
+            "age": 82
         },
         {
             "name": "Wayne Kramer",
@@ -588,12 +628,24 @@
             "age": 84
         },
         {
+            "name": "Luis Morales Reyes",
+            "age": 87
+        },
+        {
             "name": "Don Murray",
             "age": 94
         },
         {
             "name": "Oskar Negt",
             "age": 89
+        },
+        {
+            "name": "Lorenzo Olarte Cullen",
+            "age": 91
+        },
+        {
+            "name": "Christopher Priest",
+            "age": 80
         },
         {
             "name": "Pierre Raffin",
@@ -608,12 +660,24 @@
             "age": 58
         },
         {
+            "name": "Xabier Robson",
+            "age": 37
+        },
+        {
+            "name": "Rod Rosenbladt",
+            "age": 82
+        },
+        {
             "name": "Jim Rowinski",
             "age": 63
         },
         {
             "name": "Lev Sarkisov",
             "age": 85
+        },
+        {
+            "name": "Marcelo Yzurieta",
+            "age": 49
         },
         {
             "name": "Pearl Berg",
@@ -640,6 +704,10 @@
             "age": 87
         },
         {
+            "name": "Alonzo Johnson",
+            "age": 60
+        },
+        {
             "name": "Pavel Kapinos",
             "age": 48
         },
@@ -654,10 +722,6 @@
         {
             "name": "Honesto Chaves Pacana",
             "age": 91
-        },
-        {
-            "name": "Poonam Pandey",
-            "age": 32
         },
         {
             "name": "Harunur Rashid",
@@ -736,6 +800,10 @@
             "age": 74
         },
         {
+            "name": "Al McBean",
+            "age": 85
+        },
+        {
             "name": "Farida Muminova",
             "age": 66
         },
@@ -746,6 +814,10 @@
         {
             "name": "Víctor Pinales",
             "age": 59
+        },
+        {
+            "name": "John Pregenzer",
+            "age": 91
         },
         {
             "name": "Heinz Simmet",
@@ -1050,6 +1122,10 @@
         {
             "name": "Rubén Marín",
             "age": 89
+        },
+        {
+            "name": "Neil Marks",
+            "age": 85
         },
         {
             "name": "Pierre Montlaur",
@@ -1592,6 +1668,10 @@
             "age": 79
         },
         {
+            "name": "Sir Colin Shepherd",
+            "age": 86
+        },
+        {
             "name": "Margo Smith",
             "age": 84
         },
@@ -2130,6 +2210,10 @@
         {
             "name": "Alex South",
             "age": 93
+        },
+        {
+            "name": "Toni Stern",
+            "age": 79
         },
         {
             "name": "César Suárez",
@@ -2934,6 +3018,10 @@
         {
             "name": "Audie Blaylock",
             "age": 61
+        },
+        {
+            "name": "Ian Boyd",
+            "age": 88
         },
         {
             "name": "Marc Chavannes",
