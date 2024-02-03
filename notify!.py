@@ -23,7 +23,7 @@ def update_json_data(file_path, matches):
     with open(file_path, 'w') as file:
         json.dump(data, file, indent=4)
 
-def scrape_deaths_by_date_modified(url):
+def scrape_deaths(url):
     names = []
     current_date = None
 
@@ -57,7 +57,7 @@ def send_push_notification(title, body):
 def scheduled_task():
     print(f"Running scheduled task at {datetime.now()}")
     predictions = read_json_predictions("data.json")
-    scraped_names = scrape_deaths_by_date_modified(URL)
+    scraped_names = scrape_deaths(URL)
     find_matches(predictions, scraped_names)
 
 def find_matches(json_data, scraped_data):
@@ -66,12 +66,12 @@ def find_matches(json_data, scraped_data):
         print(f"Match found: {match}")
         send_push_notification("Match Found!", f"A match was found: {match}")
 
-schedule.every().day.at("12:30").do(scheduled_task)
+schedule.every().day.at("11:30").do(scheduled_task)
 
 if __name__ == "__main__":
     json_file_path = "data.json"
     predictions = read_json_predictions(json_file_path)
-    scraped_names = scrape_deaths_by_date_modified(URL)
+    scraped_names = scrape_deaths(URL)
     find_matches(predictions, scraped_names)
     while True:
         schedule.run_pending()
