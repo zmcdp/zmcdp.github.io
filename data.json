@@ -559,6 +559,10 @@
     ],
     "deceased": [
         {
+            "name": "OJ Simpson",
+            "age": 76
+        },
+        {
             "name": "Peter Bolliger",
             "age": 86
         },
